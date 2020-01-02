@@ -5,6 +5,8 @@
         <title>Title</title>
     </head>
     <body style="background-color: black;">
+		<textarea id="taTest" rows="10" style="background-color: black;font-family:verdana;font-size:12px;color: white;border-style:none;"></textarea>
+
         <div id="testdiv"></div>
         <!-- <div id="scroll_box" style="visibility: hidden;">
             <marquee scrolldelay="0" scrollamount="100" direction=up behavior="scroll" id="scroll_info">
@@ -37,6 +39,36 @@
     </body>
     <script src="{{ url_for('static',filename='js/jquery.min.js') }}"></script>
     <script>
+		let sWidth = $(window).width();
+		let sHeight = $(window).height();
+		$("#taTest").css("width", sWidth);
+		$("#taTest").css("height", sHeight);
+		//document.getElementById("taTest").value = "";
+		let dataArray;
+		$.ajax({
+			url:'getCmdLines',
+			type:"GET",
+			dataType:"json",
+			success: function (data) {
+				dataArray = data[0]['data'];
+				//console.log(data)
+			}
+		})
+		let n = 0;
+		setInterval(function() {
+			
+			if(n < dataArray.length) {
+				let parent = document.getElementById("taTest");
+				let child = document.createTextNode(dataArray[n] + "\n");
+				parent.appendChild(child);
+				let scrollTop = $("#taTest")[0].scrollHeight;
+				$("#taTest").scrollTop(scrollTop);
+				n++;
+				console.log(n + " " + dataArray.length);
+			} else {
+				n = 0;
+			}
+		}, 20);
         // setInterval(function(){
         //     $.ajax({
         //         url:'getAttackStatus',
@@ -56,22 +88,22 @@
         //     })  
         // }, 1000)
 
-        setInterval(function(){
-            $.ajax({
-                url:'getAttackStatus',
-                type:"GET",
-                dataType:"json",
-                success: function (data) {
-                    var insert_html_2 = '<marquee scrolldelay="0" scrollamount="10" direction=up behavior="scroll"> <p style="color: blanchedalmond;">cloudstack checking </p></marquee>';
-                    if (data[0]['attack_status']) {
-                        console.log("111");
-                        document.getElementById("testdiv").innerHTML = insert_html_2;
-                    } else {
-                        console.log("222");
-                        document.getElementById("testdiv").innerHTML = insert_html_2;
-                    }
-                }
-            })  
-        }, 1000)
+        // setInterval(function(){
+        //     $.ajax({
+        //         url:'getAttackStatus',
+        //         type:"GET",
+        //         dataType:"json",
+        //         success: function (data) {
+        //             var insert_html_2 = '<marquee scrolldelay="0" scrollamount="10" direction=up behavior="scroll"> <p style="color: blanchedalmond;">cloudstack checking </p></marquee>';
+        //             if (data[0]['attack_status']) {
+        //                 console.log("111");
+        //                 document.getElementById("testdiv").innerHTML = insert_html_2;
+        //             } else {
+        //                 console.log("222");
+        //                 document.getElementById("testdiv").innerHTML = insert_html_2;
+        //             }
+        //         }
+        //     })  
+        // }, 1000)
     </script>
 </html>
