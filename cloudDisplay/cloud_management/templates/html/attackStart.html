@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <meta charset="UTF-8">
+        <title>Start AttackStart Attack</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style_bt.css') }}">
+        <style>
+            body {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin: -150px 0 0 -200px;
+                width: 400px;
+                height: 300px;
+                /* border: 1px solid red; */
+            }
+        </style>
+    </head>
+
+    <body style="top:50%">
+        <h1>Start Attack</h1>
+        <div id="button">
+            <div id="top"></div>
+            <div id="bottom"></div>
+            <div id="body" class="body"></div>
+            <div id="floor"></div>
+        </div>
+
+        <p>Just press the button and hold it down.</p>
+        <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+        <script  src="{{ url_for('static', filename='js/index_bt.js') }}"></script>
+    </body text-align>
+</html>

@@ -1,0 +1,918 @@
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 12m23 ?      00:00:07 /sbin/init splash
+root           2       0  0 12m23 ?      00:00:00 [kthreadd]
+root           3       2  0 12m23 ?      00:00:00 [ksoftirqd/0]
+root           5       2  0 12m23 ?      00:00:00 [kworker/0:0H]
+root           6       2  0 12m23 ?      00:00:00 [kworker/u896:0]
+root           8       2  0 12m23 ?      00:00:41 [rcu_sched]
+root           9       2  0 12m23 ?      00:00:00 [rcu_bh]
+root          10       2  0 12m23 ?      00:00:00 [migration/0]
+root          11       2  0 12m23 ?      00:00:00 [watchdog/0]
+root          12       2  0 12m23 ?      00:00:00 [watchdog/1]
+root          13       2  0 12m23 ?      00:00:00 [migration/1]
+root          14       2  0 12m23 ?      00:00:00 [ksoftirqd/1]
+root          16       2  0 12m23 ?      00:00:00 [kworker/1:0H]
+root          18       2  0 12m23 ?      00:00:00 [watchdog/2]
+root          19       2  0 12m23 ?      00:00:00 [migration/2]
+root          20       2  0 12m23 ?      00:00:00 [ksoftirqd/2]
+root          22       2  0 12m23 ?      00:00:00 [kworker/2:0H]
+root          23       2  0 12m23 ?      00:00:00 [watchdog/3]
+root          24       2  0 12m23 ?      00:00:00 [migration/3]
+root          25       2  0 12m23 ?      00:00:00 [ksoftirqd/3]
+root          27       2  0 12m23 ?      00:00:00 [kworker/3:0H]
+root          28       2  0 12m23 ?      00:00:00 [watchdog/4]
+root          29       2  0 12m23 ?      00:00:00 [migration/4]
+root          30       2  0 12m23 ?      00:00:00 [ksoftirqd/4]
+root          32       2  0 12m23 ?      00:00:00 [kworker/4:0H]
+root          33       2  0 12m23 ?      00:00:00 [watchdog/5]
+root          34       2  0 12m23 ?      00:00:00 [migration/5]
+root          35       2  0 12m23 ?      00:00:00 [ksoftirqd/5]
+root          37       2  0 12m23 ?      00:00:00 [kworker/5:0H]
+root          38       2  0 12m23 ?      00:00:00 [watchdog/6]
+root          39       2  0 12m23 ?      00:00:00 [migration/6]
+root          40       2  0 12m23 ?      00:00:00 [ksoftirqd/6]
+root          42       2  0 12m23 ?      00:00:00 [kworker/6:0H]
+root          43       2  0 12m23 ?      00:00:00 [watchdog/7]
+root          44       2  0 12m23 ?      00:00:00 [migration/7]
+root          45       2  0 12m23 ?      00:00:00 [ksoftirqd/7]
+root          47       2  0 12m23 ?      00:00:00 [kworker/7:0H]
+root          48       2  0 12m23 ?      00:00:00 [watchdog/8]
+root          49       2  0 12m23 ?      00:00:00 [migration/8]
+root          50       2  0 12m23 ?      00:00:00 [ksoftirqd/8]
+root          52       2  0 12m23 ?      00:00:00 [kworker/8:0H]
+root          53       2  0 12m23 ?      00:00:00 [watchdog/9]
+root          54       2  0 12m23 ?      00:00:00 [migration/9]
+root          55       2  0 12m23 ?      00:00:00 [ksoftirqd/9]
+root          57       2  0 12m23 ?      00:00:00 [kworker/9:0H]
+root          58       2  0 12m23 ?      00:00:00 [watchdog/10]
+root          59       2  0 12m23 ?      00:00:00 [migration/10]
+root          60       2  0 12m23 ?      00:00:01 [ksoftirqd/10]
+root          62       2  0 12m23 ?      00:00:00 [kworker/10:0H]
+root          63       2  0 12m23 ?      00:00:00 [watchdog/11]
+root          64       2  0 12m23 ?      00:00:00 [migration/11]
+root          65       2  0 12m23 ?      00:00:00 [ksoftirqd/11]
+root          67       2  0 12m23 ?      00:00:00 [kworker/11:0H]
+root          68       2  0 12m23 ?      00:00:00 [watchdog/12]
+root          69       2  0 12m23 ?      00:00:00 [migration/12]
+root          70       2  0 12m23 ?      00:00:00 [ksoftirqd/12]
+root          72       2  0 12m23 ?      00:00:00 [kworker/12:0H]
+root          73       2  0 12m23 ?      00:00:00 [watchdog/13]
+root          74       2  0 12m23 ?      00:00:00 [migration/13]
+root          75       2  0 12m23 ?      00:00:00 [ksoftirqd/13]
+root          77       2  0 12m23 ?      00:00:00 [kworker/13:0H]
+root          78       2  0 12m23 ?      00:00:00 [watchdog/14]
+root          79       2  0 12m23 ?      00:00:00 [migration/14]
+root          80       2  0 12m23 ?      00:00:00 [ksoftirqd/14]
+root          82       2  0 12m23 ?      00:00:00 [kworker/14:0H]
+root          83       2  0 12m23 ?      00:00:00 [watchdog/15]
+root          84       2  0 12m23 ?      00:00:00 [migration/15]
+root          85       2  0 12m23 ?      00:00:00 [ksoftirqd/15]
+root          87       2  0 12m23 ?      00:00:00 [kworker/15:0H]
+root          88       2  0 12m23 ?      00:00:00 [watchdog/16]
+root          89       2  0 12m23 ?      00:00:00 [migration/16]
+root          90       2  0 12m23 ?      00:00:00 [ksoftirqd/16]
+root          92       2  0 12m23 ?      00:00:00 [kworker/16:0H]
+root          93       2  0 12m23 ?      00:00:00 [watchdog/17]
+root          94       2  0 12m23 ?      00:00:00 [migration/17]
+root          95       2  0 12m23 ?      00:00:00 [ksoftirqd/17]
+root          97       2  0 12m23 ?      00:00:00 [kworker/17:0H]
+root          98       2  0 12m23 ?      00:00:00 [watchdog/18]
+root          99       2  0 12m23 ?      00:00:00 [migration/18]
+root         100       2  0 12m23 ?      00:00:00 [ksoftirqd/18]
+root         102       2  0 12m23 ?      00:00:00 [kworker/18:0H]
+root         103       2  0 12m23 ?      00:00:00 [watchdog/19]
+root         104       2  0 12m23 ?      00:00:00 [migration/19]
+root         105       2  0 12m23 ?      00:00:00 [ksoftirqd/19]
+root         107       2  0 12m23 ?      00:00:00 [kworker/19:0H]
+root         108       2  0 12m23 ?      00:00:00 [watchdog/20]
+root         109       2  0 12m23 ?      00:00:00 [migration/20]
+root         110       2  0 12m23 ?      00:00:00 [ksoftirqd/20]
+root         112       2  0 12m23 ?      00:00:00 [kworker/20:0H]
+root         113       2  0 12m23 ?      00:00:00 [watchdog/21]
+root         114       2  0 12m23 ?      00:00:00 [migration/21]
+root         115       2  0 12m23 ?      00:00:00 [ksoftirqd/21]
+root         117       2  0 12m23 ?      00:00:00 [kworker/21:0H]
+root         118       2  0 12m23 ?      00:00:00 [watchdog/22]
+root         119       2  0 12m23 ?      00:00:00 [migration/22]
+root         120       2  0 12m23 ?      00:00:02 [ksoftirqd/22]
+root         122       2  0 12m23 ?      00:00:00 [kworker/22:0H]
+root         123       2  0 12m23 ?      00:00:00 [watchdog/23]
+root         124       2  0 12m23 ?      00:00:00 [migration/23]
+root         125       2  0 12m23 ?      00:00:00 [ksoftirqd/23]
+root         127       2  0 12m23 ?      00:00:00 [kworker/23:0H]
+root         128       2  0 12m23 ?      00:00:00 [watchdog/24]
+root         129       2  0 12m23 ?      00:00:00 [migration/24]
+root         130       2  0 12m23 ?      00:00:01 [ksoftirqd/24]
+root         132       2  0 12m23 ?      00:00:00 [kworker/24:0H]
+root         133       2  0 12m23 ?      00:00:00 [watchdog/25]
+root         134       2  0 12m23 ?      00:00:00 [migration/25]
+root         135       2  0 12m23 ?      00:00:00 [ksoftirqd/25]
+root         137       2  0 12m23 ?      00:00:00 [kworker/25:0H]
+root         138       2  0 12m23 ?      00:00:00 [watchdog/26]
+root         139       2  0 12m23 ?      00:00:00 [migration/26]
+root         140       2  0 12m23 ?      00:00:00 [ksoftirqd/26]
+root         142       2  0 12m23 ?      00:00:00 [kworker/26:0H]
+root         143       2  0 12m23 ?      00:00:00 [watchdog/27]
+root         144       2  0 12m23 ?      00:00:00 [migration/27]
+root         145       2  0 12m23 ?      00:00:00 [ksoftirqd/27]
+root         147       2  0 12m23 ?      00:00:00 [kworker/27:0H]
+root         148       2  0 12m23 ?      00:00:00 [watchdog/28]
+root         149       2  0 12m23 ?      00:00:00 [migration/28]
+root         150       2  0 12m23 ?      00:00:00 [ksoftirqd/28]
+root         152       2  0 12m23 ?      00:00:00 [kworker/28:0H]
+root         153       2  0 12m23 ?      00:00:00 [watchdog/29]
+root         154       2  0 12m23 ?      00:00:00 [migration/29]
+root         155       2  0 12m23 ?      00:00:00 [ksoftirqd/29]
+root         157       2  0 12m23 ?      00:00:00 [kworker/29:0H]
+root         158       2  0 12m23 ?      00:00:00 [watchdog/30]
+root         159       2  0 12m23 ?      00:00:00 [migration/30]
+root         160       2  0 12m23 ?      00:00:00 [ksoftirqd/30]
+root         162       2  0 12m23 ?      00:00:00 [kworker/30:0H]
+root         163       2  0 12m23 ?      00:00:00 [watchdog/31]
+root         164       2  0 12m23 ?      00:00:00 [migration/31]
+root         165       2  0 12m23 ?      00:00:00 [ksoftirqd/31]
+root         167       2  0 12m23 ?      00:00:00 [kworker/31:0H]
+root         168       2  0 12m23 ?      00:00:00 [kdevtmpfs]
+root         169       2  0 12m23 ?      00:00:00 [netns]
+root         170       2  0 12m23 ?      00:00:00 [perf]
+root         171       2  0 12m23 ?      00:00:00 [khungtaskd]
+root         172       2  0 12m23 ?      00:00:00 [writeback]
+root         173       2  0 12m23 ?      00:00:00 [ksmd]
+root         174       2  0 12m23 ?      00:00:00 [khugepaged]
+root         175       2  0 12m23 ?      00:00:00 [crypto]
+root         176       2  0 12m23 ?      00:00:00 [kintegrityd]
+root         177       2  0 12m23 ?      00:00:00 [bioset]
+root         178       2  0 12m23 ?      00:00:00 [kblockd]
+root         180       2  0 12m23 ?      00:00:00 [ata_sff]
+root         181       2  0 12m23 ?      00:00:00 [md]
+root         182       2  0 12m23 ?      00:00:00 [devfreq_wq]
+root         186       2  0 12m23 ?      00:00:00 [kswapd0]
+root         187       2  0 12m23 ?      00:00:00 [kswapd1]
+root         188       2  0 12m23 ?      00:00:00 [vmstat]
+root         189       2  0 12m23 ?      00:00:00 [fsnotify_mark]
+root         190       2  0 12m23 ?      00:00:00 [ecryptfs-kthrea]
+root         206       2  0 12m23 ?      00:00:00 [kthrotld]
+root         224       2  0 12m23 ?      00:00:00 [kworker/19:1]
+root         228       2  0 12m23 ?      00:00:00 [kworker/23:1]
+root         231       2  0 12m23 ?      00:00:00 [kworker/26:1]
+root         232       2  0 12m23 ?      00:00:00 [kworker/27:1]
+root         233       2  0 12m23 ?      00:00:00 [kworker/28:1]
+root         234       2  0 12m23 ?      00:00:00 [kworker/29:1]
+root         236       2  0 12m23 ?      00:00:00 [kworker/31:1]
+root         237       2  0 12m23 ?      00:00:00 [acpi_thermal_pm]
+root         239       2  0 12m23 ?      00:00:00 [bioset]
+root         240       2  0 12m23 ?      00:00:00 [bioset]
+root         241       2  0 12m23 ?      00:00:00 [bioset]
+root         242       2  0 12m23 ?      00:00:00 [bioset]
+root         243       2  0 12m23 ?      00:00:00 [bioset]
+root         244       2  0 12m23 ?      00:00:00 [bioset]
+root         245       2  0 12m23 ?      00:00:00 [bioset]
+root         246       2  0 12m23 ?      00:00:00 [bioset]
+root         252       2  0 12m23 ?      00:00:00 [ipv6_addrconf]
+root         265       2  0 12m23 ?      00:00:00 [deferwq]
+root         266       2  0 12m23 ?      00:00:00 [kworker/u896:1]
+root         267       2  0 12m23 ?      00:00:00 [charger_manager]
+root         314       2  0 12m23 ?      00:00:00 [scsi_eh_0]
+root         315       2  0 12m23 ?      00:00:00 [scsi_tmf_0]
+root         317       2  0 12m23 ?      00:00:00 [scsi_eh_1]
+root         318       2  0 12m23 ?      00:00:00 [scsi_tmf_1]
+root         319       2  0 12m23 ?      00:00:00 [scsi_eh_2]
+root         320       2  0 12m23 ?      00:00:00 [scsi_tmf_2]
+root         321       2  0 12m23 ?      00:00:00 [scsi_eh_3]
+root         322       2  0 12m23 ?      00:00:00 [scsi_tmf_3]
+root         323       2  0 12m23 ?      00:00:00 [scsi_eh_4]
+root         324       2  0 12m23 ?      00:00:00 [scsi_tmf_4]
+root         325       2  0 12m23 ?      00:00:00 [scsi_eh_5]
+root         326       2  0 12m23 ?      00:00:00 [scsi_tmf_5]
+root         327       2  0 12m23 ?      00:00:00 [scsi_eh_6]
+root         328       2  0 12m23 ?      00:00:00 [scsi_tmf_6]
+root         334       2  0 12m23 ?      00:00:00 [scsi_eh_7]
+root         335       2  0 12m23 ?      00:00:00 [scsi_tmf_7]
+root         336       2  0 12m23 ?      00:00:00 [scsi_eh_8]
+root         337       2  0 12m23 ?      00:00:00 [scsi_tmf_8]
+root         338       2  0 12m23 ?      00:00:00 [scsi_eh_9]
+root         339       2  0 12m23 ?      00:00:00 [scsi_tmf_9]
+root         340       2  0 12m23 ?      00:00:00 [scsi_eh_10]
+root         341       2  0 12m23 ?      00:00:00 [scsi_tmf_10]
+root         342       2  0 12m23 ?      00:00:00 [scsi_eh_11]
+root         343       2  0 12m23 ?      00:00:00 [scsi_tmf_11]
+root         344       2  0 12m23 ?      00:00:00 [scsi_eh_12]
+root         345       2  0 12m23 ?      00:00:00 [scsi_tmf_12]
+root         346       2  0 12m23 ?      00:00:00 [scsi_eh_13]
+root         347       2  0 12m23 ?      00:00:00 [scsi_tmf_13]
+root         348       2  0 12m23 ?      00:00:00 [scsi_eh_14]
+root         349       2  0 12m23 ?      00:00:00 [scsi_tmf_14]
+root         657       2  0 12m23 ?      00:00:00 [bioset]
+root         941       2  0 12m23 ?      00:00:01 [jbd2/sda2-8]
+root         942       2  0 12m23 ?      00:00:00 [ext4-rsv-conver]
+root         973       2  0 12m23 ?      00:00:00 [kworker/29:2]
+root         978       2  0 12m23 ?      00:00:00 [kworker/31:2]
+root         991       1  0 12m23 ?      00:00:01 /lib/systemd/systemd-journald
+root         996       2  0 12m23 ?      00:00:00 [kauditd]
+root        1002       2  0 12m23 ?      00:00:00 [kworker/20:1H]
+root        1023       2  0 12m23 ?      00:00:00 [rpciod]
+root        1027       1  0 12m23 ?      00:00:00 /sbin/lvmetad -f
+root        1032       1  0 12m23 ?      00:00:00 /lib/systemd/systemd-udevd
+root        1236       2  0 12m23 ?      00:00:00 [kworker/25:2]
+root        1248       2  0 12m23 ?      00:00:00 [ib_addr]
+root        1251       2  0 12m23 ?      00:00:00 [irq/67-mei_me]
+root        1318       2  0 12m23 ?      00:00:00 [kvm-irqfd-clean]
+root        1378       2  0 12m23 ?      00:00:00 [irq/86-hfi1_0 k]
+root        1379       2  0 12m23 ?      00:00:00 [irq/87-hfi1_0 k]
+root        1380       2  0 12m23 ?      00:00:00 [edac-poller]
+root        1381       2  0 12m23 ?      00:00:00 [hfi0_0]
+root        1382       2  0 12m23 ?      00:00:00 [hfi1_cq0]
+root        1383       2  0 12m23 ?      00:00:00 [ib_mad1]
+root        1384       2  0 12m23 ?      00:00:00 [kworker/2:1H]
+root        1429       2  0 12m23 ?      00:00:00 [kdmflush]
+root        1431       2  0 12m23 ?      00:00:00 [bioset]
+root        1717       2  0 12m23 ?      00:00:00 [kworker/12:1H]
+root        1718       2  0 12m23 ?      00:00:00 [kworker/3:1H]
+syslog      1738       1  0 12m23 ?      00:00:00 /usr/sbin/rsyslogd -n
+root        1749       1  0 12m23 ?      00:00:00 /lib/systemd/systemd-logind
+root        1754       1  0 12m23 ?      00:00:00 /usr/sbin/acpid
+message+    1758       1  0 12m23 ?      00:00:03 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root        1769       1  0 12m23 ?      00:00:00 /usr/bin/python2.7 /usr/bin/ceph-crash
+root        1772       1  0 12m23 ?      00:00:00 /usr/sbin/ModemManager
+avahi       1784       1  0 12m23 ?      00:00:00 avahi-daemon: running [katherine-PowerEdge-R540.local]
+root        1793       1  0 12m23 ?      00:00:04 /usr/lib/accountsservice/accounts-daemon
+root        1795       2  0 12m23 ?      00:00:00 [kworker/21:2]
+root        1809       1  0 12m23 ?      00:00:04 /usr/sbin/NetworkManager --no-daemon
+root        1824       1  0 12m23 ?      00:00:00 /sbin/cgmanager -m name=systemd
+root        1839       1  0 12m23 ?      00:00:00 /usr/sbin/cron -f
+avahi       1879    1784  0 12m23 ?      00:00:00 avahi-daemon: chroot helper
+root        1893       1  0 12m23 ?      00:00:06 /usr/bin/vmware-usbarbitrator
+root        1907       1  0 12m23 ?      00:00:04 /usr/lib/policykit-1/polkitd --no-debug
+root        1936       2  0 12m23 ?      00:00:00 [iprt-VBoxWQueue]
+root        1940       2  0 12m23 ?      00:00:00 [iprt-VBoxTscThr]
+root        2030       1  0 12m23 ?      00:03:35 /usr/bin/containerd
+mysql       2055       1  0 12m23 ?      01:50:31 /usr/sbin/mysqld
+root        2073       1  0 12m23 ?      00:00:00 /usr/sbin/sshd -D
+root        2091       2  0 12m23 ?      00:00:00 [kworker/0:1H]
+root        2126       2  0 12m23 ?      00:00:00 [kworker/1:1H]
+root        2160       2  0 12m23 ?      00:00:00 [kworker/17:1H]
+root        2164       2  0 12m23 ?      00:00:00 [kworker/13:1H]
+root        2165    1809  0 12m23 ?      00:00:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-eno1.pid -lf /var/lib/NetworkManager/dhclient-945b4507-3e86-3f79-afcd-075ca0c79735-eno1.lease -cf /var/lib/NetworkManager/dhclient-eno1.conf eno1
+nobody      2178    1809  0 12m23 ?      00:00:00 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/var/run/NetworkManager/dnsmasq.pid --listen-address=127.0.1.1 --cache-size=0 --conf-file=/dev/null --proxy-dnssec --enable-dbus=org.freedesktop.NetworkManager.dnsmasq --conf-dir=/etc/NetworkManager/dnsmasq.d
+root        2506       2  0 12m23 ?      00:00:00 [kworker/14:1H]
+root        2507    1809  0 12m23 ?      00:00:00 /sbin/dhclient -d -q -6 -N -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient6-eno1.pid -lf /var/lib/NetworkManager/dhclient6-945b4507-3e86-3f79-afcd-075ca0c79735-eno1.lease -cf /var/lib/NetworkManager/dhclient6-eno1.conf eno1
+root        2538       1  0 12m23 ?      00:03:13 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+whoopsie    2577       1  0 12m23 ?      00:00:02 /usr/bin/whoopsie -f
+root        2624       2  0 12m23 ?      00:00:00 [kworker/21:1H]
+root        2713       1  0 12m23 ?      00:00:00 /usr/sbin/libvirtd
+mosquit+    2784       1  0 12m23 ?      00:00:50 /usr/sbin/mosquitto -c /etc/mosquitto/mosquitto.conf
+root        2848       1  0 12m23 ?      00:04:40 /usr/sbin/irqbalance --pid=/var/run/irqbalance.pid
+root        2886       1  0 12m23 ?      00:00:00 /usr/sbin/lightdm
+root        3039       2  0 12m23 ?      00:00:00 [kworker/15:1H]
+root        3053    2886  3 12m23 tty7   06:08:16 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root        3055       1  0 12m23 tty1   00:00:00 /sbin/agetty --noclear tty1 linux
+root        3081       1  0 12m23 ?      00:00:00 /usr/sbin/xinetd -pidfile /run/xinetd.pid -stayalive -inetd_compat -inetd_ipv6
+root        3150       1  0 12m23 ?      00:00:00 /usr/lib/vmware/bin/vmware-vmblock-fuse -o subtype=vmware-vmblock,default_permissions,allow_other /var/run/vmblock-fuse
+root        3196       1  0 12m23 ?      00:00:00 /usr/bin/vmnet-bridge -s 6 -d /var/run/vmnet-bridge-0.pid -n 0
+root        3205       2  0 12m23 ?      00:00:00 [kworker/4:1H]
+ntp         3207       1  0 12m23 ?      00:00:17 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 122:130
+root        3233       2  0 12m23 ?      00:00:00 [kworker/7:1H]
+root        3313       1  0 12m23 ?      00:00:00 /usr/bin/vmnet-netifup -s 6 -d /var/run/vmnet-netifup-vmnet1.pid /dev/vmnet1 vmnet1
+root        3352       2  0 12m23 ?      00:00:00 [kworker/30:1H]
+root        3368       1  0 12m23 ?      00:00:00 /usr/bin/vmnet-dhcpd -s 6 -cf /etc/vmware/vmnet1/dhcpd/dhcpd.conf -lf /etc/vmware/vmnet1/dhcpd/dhcpd.leases -pf /var/run/vmnet-dhcpd-vmnet1.pid vmnet1
+root        3386       2  0 12m23 ?      00:00:00 [kworker/5:1H]
+root        3392       2  0 12m23 ?      00:00:00 [kworker/9:1H]
+root        3403       1  0 12m23 ?      00:00:00 /usr/bin/vmnet-natd -s 6 -m /etc/vmware/vmnet8/nat.mac -c /etc/vmware/vmnet8/nat/nat.conf
+root        3411       1  0 12m23 ?      00:00:18 /usr/sbin/nmbd -D
+root        3474       1  0 12m23 ?      00:00:00 /usr/bin/vmnet-netifup -s 6 -d /var/run/vmnet-netifup-vmnet8.pid /dev/vmnet8 vmnet8
+root        3553       1  0 12m23 ?      00:00:00 /usr/bin/vmnet-dhcpd -s 6 -cf /etc/vmware/vmnet8/dhcpd/dhcpd.conf -lf /etc/vmware/vmnet8/dhcpd/dhcpd.leases -pf /var/run/vmnet-dhcpd-vmnet8.pid vmnet8
+root        3699       1  0 12m23 ?      00:00:06 /usr/sbin/vmware-authdlauncher
+root        3705       1  0 12m23 ?      00:00:01 /usr/sbin/smbd -D
+root        3706    3705  0 12m23 ?      00:00:03 /usr/sbin/smbd -D
+root        3712    3705  0 12m23 ?      00:00:01 /usr/sbin/smbd -D
+root        3863       2  0 12m23 ?      00:00:00 [kworker/16:1H]
+root        3864       2  0 12m23 ?      00:00:00 [kworker/6:1H]
+root        3867       1  0 12m23 ?      00:34:02 /usr/lib/vmware/bin/vmware-hostd -a /etc/vmware/hostd/config.xml
+root        3913    2886  0 12m23 ?      00:00:00 lightdm --session-child 12 19
+rtkit       3999       1  0 12m23 ?      00:00:02 /usr/lib/rtkit/rtkit-daemon
+root        4096       1  0 12m23 ?      00:00:00 /usr/lib/upower/upowerd
+root        4111       2  0 12m23 ?      00:00:00 [kworker/11:1H]
+root        4122       2  0 12m23 ?      00:00:00 [kworker/8:1H]
+colord      4133       1  0 12m23 ?      00:00:00 /usr/lib/colord/colord
+libvirt+    4487       1  0 12m23 ?      00:00:00 /usr/sbin/dnsmasq --conf-file=/var/lib/libvirt/dnsmasq/default.conf --leasefile-ro --dhcp-script=/usr/lib/libvirt/libvirt_leaseshelper
+root        4488    4487  0 12m23 ?      00:00:00 /usr/sbin/dnsmasq --conf-file=/var/lib/libvirt/dnsmasq/default.conf --leasefile-ro --dhcp-script=/usr/lib/libvirt/libvirt_leaseshelper
+root        4581       2  0 12m23 ?      00:00:00 [nfsiod]
+root        4590       2  0 12m23 ?      00:00:00 [kworker/29:1H]
+root        4613       2  0 12m23 ?      00:00:00 [kworker/10:1H]
+do          4940       1  0 12m23 ?      00:00:00 /lib/systemd/systemd --user
+do          5012    4940  0 12m23 ?      00:00:00 (sd-pam)
+do          5066       1  0 12m23 ?      00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+do          5070    3913  0 12m23 ?      00:00:00 /sbin/upstart --user
+do          5180    5070  0 12m23 ?      00:00:00 upstart-udev-bridge --daemon --user
+do          5181    5070  0 12m23 ?      00:00:04 dbus-daemon --fork --session --address=unix:abstract=/tmp/dbus-CA2eD8VmAP
+do          5193    5070  0 12m23 ?      00:00:00 /usr/lib/x86_64-linux-gnu/hud/window-stack-bridge
+do          5218    5070  0 12m23 ?      00:00:00 upstart-dbus-bridge --daemon --system --user --bus-name system
+do          5219    5070  0 12m23 ?      00:00:01 upstart-dbus-bridge --daemon --session --user --bus-name session
+do          5227    5070  0 12m23 ?      00:00:00 /usr/bin/ibus-daemon --daemonize --xim
+do          5245    5070  0 12m23 ?      00:00:00 upstart-file-bridge --daemon --user
+do          5249    5070  0 12m23 ?      00:00:00 /usr/lib/gvfs/gvfsd
+do          5254    5070  0 12m23 ?      00:00:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1002/gvfs -f -o big_writes
+do          5263    5227  0 12m23 ?      00:00:00 /usr/lib/ibus/ibus-dconf
+do          5264    5227  0 12m23 ?      00:00:00 /usr/lib/ibus/ibus-ui-gtk3
+do          5268    5070  0 12m23 ?      00:00:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+do          5278    5070  0 12m23 ?      00:00:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+do          5286    5278  0 12m23 ?      00:00:00 /usr/bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+do          5288    5070  0 12m23 ?      00:00:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+do          5292    5070  0 12m23 ?      00:00:00 /usr/lib/x86_64-linux-gnu/bamf/bamfdaemon
+do          5298    5227  0 12m23 ?      00:00:00 /usr/lib/ibus/ibus-engine-simple
+do          5313    5070  0 12m23 ?      00:00:06 gpg-agent --homedir /home/do/.gnupg --use-standard-socket --daemon
+do          5374    5070  0 12m23 ?      00:00:00 /usr/lib/x86_64-linux-gnu/hud/hud-service
+do          5376    5070  0 12m23 ?      00:00:06 /usr/lib/unity-settings-daemon/unity-settings-daemon
+do          5388    5070 18 12m23 ?      1-12:19:03 compiz
+do          5389    5070  0 12m23 ?      00:00:00 /usr/lib/gnome-session/gnome-session-binary --session=ubuntu
+do          5393    5070  0 12m23 ?      00:00:13 /usr/lib/x86_64-linux-gnu/unity/unity-panel-service
+do          5449    5070  0 12m23 ?      00:00:00 /usr/lib/dconf/dconf-service
+do          5454    5070  0 12m23 ?      00:00:00 /usr/lib/x86_64-linux-gnu/indicator-messages/indicator-messages-service
+do          5455    5070  0 12m23 ?      00:00:00 /usr/lib/x86_64-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
+do          5456    5070  0 12m23 ?      00:00:00 /usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service
+do          5457    5070  0 12m23 ?      00:00:06 /usr/lib/x86_64-linux-gnu/indicator-datetime/indicator-datetime-service
+do          5460    5070  0 12m23 ?      00:00:00 /usr/lib/x86_64-linux-gnu/indicator-keyboard/indicator-keyboard-service --use-gtk
+do          5465    5070  0 12m23 ?      00:00:00 /usr/lib/x86_64-linux-gnu/indicator-sound/indicator-sound-service
+do          5468    5070  0 12m23 ?      00:00:00 /usr/lib/x86_64-linux-gnu/indicator-printers/indicator-printers-service
+do          5469    5070  0 12m23 ?      00:00:00 /usr/lib/x86_64-linux-gnu/indicator-session/indicator-session-service
+do          5496    5070  0 12m23 ?      00:00:00 /usr/lib/x86_64-linux-gnu/indicator-application/indicator-application-service
+do          5513    5070  0 12m23 ?      00:00:00 /usr/bin/pulseaudio --start --log-target=syslog
+do          5528    5070  0 12m23 ?      00:00:00 /usr/lib/evolution/evolution-source-registry
+do          5558    5389  0 12m23 ?      00:00:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+do          5562    5389  0 12m23 ?      00:00:01 nm-applet
+do          5563    5389  0 12m23 ?      00:00:00 nautilus -n
+do          5570    5389  0 12m23 ?      00:00:22 /usr/bin/gnome-software --gapplication-service
+do          5573    5389  0 12m23 ?      00:00:00 /usr/lib/unity-settings-daemon/unity-fallback-mount-helper
+root        5580       2  0 12m23 ?      00:00:00 [kworker/23:1H]
+do          5609    5070  0 12m23 ?      00:00:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+root        5612       1  0 12m23 ?      00:00:00 /usr/lib/udisks2/udisksd --no-debug
+do          5623    5070  0 12m23 ?      00:00:00 /usr/lib/evolution/evolution-calendar-factory
+do          5627    5070  0 12m23 ?      00:00:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+do          5632    5070  0 12m23 ?      00:00:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+do          5640    5070  0 12m23 ?      00:00:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+root        5643       1  0 12m23 ?      00:00:01 /usr/lib/x86_64-linux-gnu/fwupd/fwupd
+do          5648    5070  0 12m23 ?      00:00:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+do          5661    5070  0 12m23 ?      00:00:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.4 /org/gtk/gvfs/exec_spaw/0
+do          5677    5623  0 12m23 ?      00:00:01 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory contacts --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx5623x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/5623/2
+do          5688    5070  0 12m23 ?      00:00:00 /usr/lib/evolution/evolution-addressbook-factory
+do          5690    5623  0 12m23 ?      00:00:01 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx5623x3 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/5623/3
+do          5711    5688  0 12m23 ?      00:00:01 /usr/lib/evolution/evolution-addressbook-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.AddressBookx5688x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/AddressBook/5688/2
+do          5791    5070  0 12m23 ?      00:00:00 /usr/lib/x86_64-linux-gnu/unity-scope-home/unity-scope-home
+do          5793    5070  0 12m23 ?      00:00:00 /bin/sh -c /usr/lib/x86_64-linux-gnu/zeitgeist/zeitgeist-maybe-vacuum; /usr/bin/zeitgeist-daemon
+do          5797    5793  0 12m23 ?      00:00:00 /usr/bin/zeitgeist-daemon
+do          5807    5070  0 12m23 ?      00:00:00 /usr/lib/x86_64-linux-gnu/zeitgeist-fts
+do          5809    5070  0 12m23 ?      00:00:03 zeitgeist-datahub
+do          5885    5070  0 12m23 ?      00:00:05 /usr/bin/unity-scope-loader applications/applications.scope applications/scopes.scope commands.scope
+do          5887    5070  0 12m23 ?      00:00:00 /usr/lib/x86_64-linux-gnu/unity-lens-files/unity-files-daemon
+root        5888       2  0 12m23 ?      00:00:00 [kworker/22:1H]
+root        5939       2  0 12m23 ?      00:00:00 [kworker/24:1H]
+do          6113    5389  0 12m23 ?      00:00:04 update-notifier
+do          6196    5070  0 12m23 ?      00:00:01 /usr/lib/x86_64-linux-gnu/notify-osd
+uuidd       6552       1  0 12m23 ?      00:00:00 /usr/sbin/uuidd --socket-activation
+root        6570       2  0 12m23 ?      00:00:00 [kworker/19:1H]
+do          6767    5389  0 12m23 ?      00:00:01 /usr/lib/x86_64-linux-gnu/deja-dup/deja-dup-monitor
+root        7543       2  0 12m23 ?      00:00:00 [kworker/26:1H]
+root        7719       2  0 12m23 ?      00:00:00 [kworker/31:1H]
+root        7762       2  0 12m23 ?      00:00:00 [kworker/25:1H]
+root        8140       2  0 12m23 ?      00:00:00 [kworker/18:1H]
+root        8343       2  0 12m23 ?      00:00:00 [kworker/28:1H]
+root        8622       2  0 12m23 ?      00:00:00 [kworker/27:1H]
+do         20430    5070  0 12m24 ?      00:00:00 /usr/lib/gvfs/gvfsd-metadata
+do         70972    5070  0 12m24 ?      00:00:09 /usr/lib/x86_64-linux-gnu/unity/unity-panel-service --lockscreen-mode
+root       71054       2  0 12m24 ?      00:00:00 [kworker/6:2]
+root       74002       2  0 12m24 ?      00:00:00 [kworker/19:0]
+root      124470       2  0 12m25 ?      00:00:00 [kworker/30:2]
+root      128557       2  0 12m25 ?      00:00:00 [kworker/27:0]
+root      133059       2  0 12m26 ?      00:00:00 [kworker/20:0]
+root      141680       2  0 12m26 ?      00:00:00 [kworker/11:1]
+root      143499       2  0 12m26 ?      00:00:00 [kworker/6:1]
+root      169605       2  0 12m26 ?      00:00:00 [kworker/18:0]
+root      230465       2  0 12m26 ?      00:00:00 [kworker/30:0]
+root      254101       2  0 12m26 ?      00:00:00 [kworker/9:1]
+root      255224       2  0 12m27 ?      00:00:00 [kworker/22:2]
+root      257505       2  0 12m27 ?      00:00:00 [kworker/21:0]
+root      257951       2  0 12m27 ?      00:00:00 [kworker/24:2]
+root      304662       2  0 12m27 ?      00:00:00 [kworker/16:2]
+root      354779       2  0 12m27 ?      00:00:00 [kworker/22:3]
+root      443769       2  0 12m27 ?      00:00:00 [kworker/18:1]
+root      469608       2  0 12m27 ?      00:00:00 [kworker/23:3]
+root      473099       1  0 12m27 ?      00:00:09 ./MqttCloudClient 10.1.119.73 zjlabmodbus
+root      484867       2  0 12m27 ?      00:00:00 [kworker/24:3]
+root      485221       2  0 12m27 ?      00:00:00 [kworker/2:2]
+root      488401       2  0 12m28 ?      00:00:00 [kworker/9:2]
+root      488845       2  0 12m28 ?      00:00:00 [kworker/11:2]
+root      496868       2  0 12m29 ?      00:00:00 [kworker/20:1]
+root      496886       2  0 12m29 ?      00:00:02 [kworker/3:2]
+root      496957       2  0 12m29 ?      00:00:00 [kworker/15:1]
+root      497635       2  0 12m29 ?      00:00:00 [kworker/14:2]
+root      510562       2  0 12m29 ?      00:00:00 [kworker/2:0]
+root      524422       2  0 12m29 ?      00:00:00 [kworker/28:0]
+root      533788       2  0 12m29 ?      00:00:00 [kworker/17:0]
+root      574012       2  0 12m30 ?      00:00:00 [kworker/14:0]
+root      575424       2  0 12m30 ?      00:00:00 [kworker/26:2]
+root      575441       2  0 12m30 ?      00:00:03 [kworker/3:0]
+root      576102       2  0 12m30 ?      00:00:00 [kworker/0:1]
+root      588404       2  0 12m30 ?      00:00:00 [kworker/13:1]
+root      594671       2  0 12m30 ?      00:00:00 [kworker/8:2]
+root      601726    2073  0 12m30 ?      00:00:00 sshd: do [priv]
+do        601758  601726  0 12m30 ?      00:00:00 sshd: do@pts/21
+do        601759  601758  0 12m30 pts/21 00:00:00 -bash
+root      601802  601759  0 12m30 pts/21 00:00:00 sudo -i
+root      601803  601802  0 12m30 pts/21 00:00:00 -bash
+root      602151  601803  0 12m30 pts/21 00:00:00 mysql -uroot -px xxxx
+root      620984       2  0 12m30 ?      00:00:00 [kworker/1:2]
+root      656840       2  0 12m30 ?      00:00:00 [kworker/12:0]
+root      690195       2  0 12m30 ?      00:00:00 [kworker/4:1]
+root      690643       2  0 12m30 ?      00:00:00 [kworker/15:0]
+root      725292       2  0 12m30 ?      00:00:00 [kworker/25:1]
+root      811364       2  0 12m30 ?      00:00:00 [kworker/16:0]
+root      883739       2  0 12m30 ?      00:00:00 [kworker/u898:2]
+root      885304       2  0 12m30 ?      00:00:00 [kworker/7:1]
+root      885428       2  0 12m30 ?      00:00:00 [kworker/5:1]
+root      885937       2  0 12m30 ?      00:00:00 [kworker/13:3]
+root      885948       2  0 12m30 ?      00:00:00 [kworker/12:2]
+root      885997       2  0 12m30 ?      00:00:00 [kworker/8:1]
+root      888524       2  0 06:29 ?        00:00:00 [kworker/0:0]
+root      888982       1  0 07:35 ?        00:00:00 /usr/sbin/cupsd -l
+root      888985       1  0 07:35 ?        00:00:00 /usr/sbin/cups-browsed
+root      889030       2  0 07:35 ?        00:00:00 [kworker/5:0]
+root      889072       2  0 07:35 ?        00:00:00 [kworker/7:2]
+root      889615       2  0 09:17 ?        00:00:00 [kworker/4:2]
+root      889675       2  0 09:26 ?        00:00:00 [kworker/1:0]
+root      889730    2073  0 09:37 ?        00:00:00 sshd: do [priv]
+do        889782  889730  0 09:37 ?        00:00:00 sshd: do@pts/2
+do        889783  889782  0 09:37 pts/2    00:00:00 -bash
+root      889784       2  0 09:37 ?        00:00:00 [kworker/u898:1]
+root      889868       2  0 09:46 ?        00:00:00 [kworker/10:0]
+root      890284    3705  0 11:03 ?        00:00:00 /usr/sbin/smbd -D
+root      890428       2  0 11:31 ?        00:00:00 [kworker/17:2]
+root      890441       2  0 11:31 ?        00:00:00 [kworker/10:2]
+root      891206       2  0 13:57 ?        00:00:00 [kworker/u897:2]
+root      891284       2  0 14:12 ?        00:00:00 [kworker/u897:0]
+do        891319  889783  0 14:21 pts/2    00:00:00 ps -ef
+root           1       0  0 12m23 ?      00:00:07 /sbin/init splash
+root           2       0  0 12m23 ?      00:00:00 [kthreadd]
+root           3       2  0 12m23 ?      00:00:00 [ksoftirqd/0]
+root           5       2  0 12m23 ?      00:00:00 [kworker/0:0H]
+root           6       2  0 12m23 ?      00:00:00 [kworker/u896:0]
+root           8       2  0 12m23 ?      00:00:41 [rcu_sched]
+root           9       2  0 12m23 ?      00:00:00 [rcu_bh]
+root          10       2  0 12m23 ?      00:00:00 [migration/0]
+root          11       2  0 12m23 ?      00:00:00 [watchdog/0]
+root          12       2  0 12m23 ?      00:00:00 [watchdog/1]
+root          13       2  0 12m23 ?      00:00:00 [migration/1]
+root          14       2  0 12m23 ?      00:00:00 [ksoftirqd/1]
+root          16       2  0 12m23 ?      00:00:00 [kworker/1:0H]
+root          18       2  0 12m23 ?      00:00:00 [watchdog/2]
+root          19       2  0 12m23 ?      00:00:00 [migration/2]
+root          20       2  0 12m23 ?      00:00:00 [ksoftirqd/2]
+root          22       2  0 12m23 ?      00:00:00 [kworker/2:0H]
+root          23       2  0 12m23 ?      00:00:00 [watchdog/3]
+root          24       2  0 12m23 ?      00:00:00 [migration/3]
+root          25       2  0 12m23 ?      00:00:00 [ksoftirqd/3]
+root          27       2  0 12m23 ?      00:00:00 [kworker/3:0H]
+root          28       2  0 12m23 ?      00:00:00 [watchdog/4]
+root          29       2  0 12m23 ?      00:00:00 [migration/4]
+root          30       2  0 12m23 ?      00:00:00 [ksoftirqd/4]
+root          32       2  0 12m23 ?      00:00:00 [kworker/4:0H]
+root          33       2  0 12m23 ?      00:00:00 [watchdog/5]
+root          34       2  0 12m23 ?      00:00:00 [migration/5]
+root          35       2  0 12m23 ?      00:00:00 [ksoftirqd/5]
+root          37       2  0 12m23 ?      00:00:00 [kworker/5:0H]
+root          38       2  0 12m23 ?      00:00:00 [watchdog/6]
+root          39       2  0 12m23 ?      00:00:00 [migration/6]
+root          40       2  0 12m23 ?      00:00:00 [ksoftirqd/6]
+root          42       2  0 12m23 ?      00:00:00 [kworker/6:0H]
+root          43       2  0 12m23 ?      00:00:00 [watchdog/7]
+root          44       2  0 12m23 ?      00:00:00 [migration/7]
+root          45       2  0 12m23 ?      00:00:00 [ksoftirqd/7]
+root          47       2  0 12m23 ?      00:00:00 [kworker/7:0H]
+root          48       2  0 12m23 ?      00:00:00 [watchdog/8]
+root          49       2  0 12m23 ?      00:00:00 [migration/8]
+root          50       2  0 12m23 ?      00:00:00 [ksoftirqd/8]
+root          52       2  0 12m23 ?      00:00:00 [kworker/8:0H]
+root          53       2  0 12m23 ?      00:00:00 [watchdog/9]
+root          54       2  0 12m23 ?      00:00:00 [migration/9]
+root          55       2  0 12m23 ?      00:00:00 [ksoftirqd/9]
+root          57       2  0 12m23 ?      00:00:00 [kworker/9:0H]
+root          58       2  0 12m23 ?      00:00:00 [watchdog/10]
+root          59       2  0 12m23 ?      00:00:00 [migration/10]
+root          60       2  0 12m23 ?      00:00:01 [ksoftirqd/10]
+root          62       2  0 12m23 ?      00:00:00 [kworker/10:0H]
+root          63       2  0 12m23 ?      00:00:00 [watchdog/11]
+root          64       2  0 12m23 ?      00:00:00 [migration/11]
+root          65       2  0 12m23 ?      00:00:00 [ksoftirqd/11]
+root          67       2  0 12m23 ?      00:00:00 [kworker/11:0H]
+root          68       2  0 12m23 ?      00:00:00 [watchdog/12]
+root          69       2  0 12m23 ?      00:00:00 [migration/12]
+root          70       2  0 12m23 ?      00:00:00 [ksoftirqd/12]
+root          72       2  0 12m23 ?      00:00:00 [kworker/12:0H]
+root          73       2  0 12m23 ?      00:00:00 [watchdog/13]
+root          74       2  0 12m23 ?      00:00:00 [migration/13]
+root          75       2  0 12m23 ?      00:00:00 [ksoftirqd/13]
+root          77       2  0 12m23 ?      00:00:00 [kworker/13:0H]
+root          78       2  0 12m23 ?      00:00:00 [watchdog/14]
+root          79       2  0 12m23 ?      00:00:00 [migration/14]
+root          80       2  0 12m23 ?      00:00:00 [ksoftirqd/14]
+root          82       2  0 12m23 ?      00:00:00 [kworker/14:0H]
+root          83       2  0 12m23 ?      00:00:00 [watchdog/15]
+root          84       2  0 12m23 ?      00:00:00 [migration/15]
+root          85       2  0 12m23 ?      00:00:00 [ksoftirqd/15]
+root          87       2  0 12m23 ?      00:00:00 [kworker/15:0H]
+root          88       2  0 12m23 ?      00:00:00 [watchdog/16]
+root          89       2  0 12m23 ?      00:00:00 [migration/16]
+root          90       2  0 12m23 ?      00:00:00 [ksoftirqd/16]
+root          92       2  0 12m23 ?      00:00:00 [kworker/16:0H]
+root          93       2  0 12m23 ?      00:00:00 [watchdog/17]
+root          94       2  0 12m23 ?      00:00:00 [migration/17]
+root          95       2  0 12m23 ?      00:00:00 [ksoftirqd/17]
+root          97       2  0 12m23 ?      00:00:00 [kworker/17:0H]
+root          98       2  0 12m23 ?      00:00:00 [watchdog/18]
+root          99       2  0 12m23 ?      00:00:00 [migration/18]
+root         100       2  0 12m23 ?      00:00:00 [ksoftirqd/18]
+root         102       2  0 12m23 ?      00:00:00 [kworker/18:0H]
+root         103       2  0 12m23 ?      00:00:00 [watchdog/19]
+root         104       2  0 12m23 ?      00:00:00 [migration/19]
+root         105       2  0 12m23 ?      00:00:00 [ksoftirqd/19]
+root         107       2  0 12m23 ?      00:00:00 [kworker/19:0H]
+root         108       2  0 12m23 ?      00:00:00 [watchdog/20]
+root         109       2  0 12m23 ?      00:00:00 [migration/20]
+root         110       2  0 12m23 ?      00:00:00 [ksoftirqd/20]
+root         112       2  0 12m23 ?      00:00:00 [kworker/20:0H]
+root         113       2  0 12m23 ?      00:00:00 [watchdog/21]
+root         114       2  0 12m23 ?      00:00:00 [migration/21]
+root         115       2  0 12m23 ?      00:00:00 [ksoftirqd/21]
+root         117       2  0 12m23 ?      00:00:00 [kworker/21:0H]
+root         118       2  0 12m23 ?      00:00:00 [watchdog/22]
+root         119       2  0 12m23 ?      00:00:00 [migration/22]
+root         120       2  0 12m23 ?      00:00:02 [ksoftirqd/22]
+root         122       2  0 12m23 ?      00:00:00 [kworker/22:0H]
+root         123       2  0 12m23 ?      00:00:00 [watchdog/23]
+root         124       2  0 12m23 ?      00:00:00 [migration/23]
+root         125       2  0 12m23 ?      00:00:00 [ksoftirqd/23]
+root         127       2  0 12m23 ?      00:00:00 [kworker/23:0H]
+root         128       2  0 12m23 ?      00:00:00 [watchdog/24]
+root         129       2  0 12m23 ?      00:00:00 [migration/24]
+root         130       2  0 12m23 ?      00:00:01 [ksoftirqd/24]
+root         132       2  0 12m23 ?      00:00:00 [kworker/24:0H]
+root         133       2  0 12m23 ?      00:00:00 [watchdog/25]
+root         134       2  0 12m23 ?      00:00:00 [migration/25]
+root         135       2  0 12m23 ?      00:00:00 [ksoftirqd/25]
+root         137       2  0 12m23 ?      00:00:00 [kworker/25:0H]
+root         138       2  0 12m23 ?      00:00:00 [watchdog/26]
+root         139       2  0 12m23 ?      00:00:00 [migration/26]
+root         140       2  0 12m23 ?      00:00:00 [ksoftirqd/26]
+root         142       2  0 12m23 ?      00:00:00 [kworker/26:0H]
+root         143       2  0 12m23 ?      00:00:00 [watchdog/27]
+root         144       2  0 12m23 ?      00:00:00 [migration/27]
+root         145       2  0 12m23 ?      00:00:00 [ksoftirqd/27]
+root         147       2  0 12m23 ?      00:00:00 [kworker/27:0H]
+root         148       2  0 12m23 ?      00:00:00 [watchdog/28]
+root         149       2  0 12m23 ?      00:00:00 [migration/28]
+root         150       2  0 12m23 ?      00:00:00 [ksoftirqd/28]
+root         152       2  0 12m23 ?      00:00:00 [kworker/28:0H]
+root         153       2  0 12m23 ?      00:00:00 [watchdog/29]
+root         154       2  0 12m23 ?      00:00:00 [migration/29]
+root         155       2  0 12m23 ?      00:00:00 [ksoftirqd/29]
+root         157       2  0 12m23 ?      00:00:00 [kworker/29:0H]
+root         158       2  0 12m23 ?      00:00:00 [watchdog/30]
+root         159       2  0 12m23 ?      00:00:00 [migration/30]
+root         160       2  0 12m23 ?      00:00:00 [ksoftirqd/30]
+root         162       2  0 12m23 ?      00:00:00 [kworker/30:0H]
+root         163       2  0 12m23 ?      00:00:00 [watchdog/31]
+root         164       2  0 12m23 ?      00:00:00 [migration/31]
+root         165       2  0 12m23 ?      00:00:00 [ksoftirqd/31]
+root         167       2  0 12m23 ?      00:00:00 [kworker/31:0H]
+root         168       2  0 12m23 ?      00:00:00 [kdevtmpfs]
+root         169       2  0 12m23 ?      00:00:00 [netns]
+root         170       2  0 12m23 ?      00:00:00 [perf]
+root         171       2  0 12m23 ?      00:00:00 [khungtaskd]
+root         172       2  0 12m23 ?      00:00:00 [writeback]
+root         173       2  0 12m23 ?      00:00:00 [ksmd]
+root         174       2  0 12m23 ?      00:00:00 [khugepaged]
+root         175       2  0 12m23 ?      00:00:00 [crypto]
+root         176       2  0 12m23 ?      00:00:00 [kintegrityd]
+root         177       2  0 12m23 ?      00:00:00 [bioset]
+root         178       2  0 12m23 ?      00:00:00 [kblockd]
+root         180       2  0 12m23 ?      00:00:00 [ata_sff]
+root         181       2  0 12m23 ?      00:00:00 [md]
+root         182       2  0 12m23 ?      00:00:00 [devfreq_wq]
+root         186       2  0 12m23 ?      00:00:00 [kswapd0]
+root         187       2  0 12m23 ?      00:00:00 [kswapd1]
+root         188       2  0 12m23 ?      00:00:00 [vmstat]
+root         189       2  0 12m23 ?      00:00:00 [fsnotify_mark]
+root         190       2  0 12m23 ?      00:00:00 [ecryptfs-kthrea]
+root         206       2  0 12m23 ?      00:00:00 [kthrotld]
+root         224       2  0 12m23 ?      00:00:00 [kworker/19:1]
+root         228       2  0 12m23 ?      00:00:00 [kworker/23:1]
+root         231       2  0 12m23 ?      00:00:00 [kworker/26:1]
+root         232       2  0 12m23 ?      00:00:00 [kworker/27:1]
+root         233       2  0 12m23 ?      00:00:00 [kworker/28:1]
+root         234       2  0 12m23 ?      00:00:00 [kworker/29:1]
+root         236       2  0 12m23 ?      00:00:00 [kworker/31:1]
+root         237       2  0 12m23 ?      00:00:00 [acpi_thermal_pm]
+root         239       2  0 12m23 ?      00:00:00 [bioset]
+root         240       2  0 12m23 ?      00:00:00 [bioset]
+root         241       2  0 12m23 ?      00:00:00 [bioset]
+root         242       2  0 12m23 ?      00:00:00 [bioset]
+root         243       2  0 12m23 ?      00:00:00 [bioset]
+root         244       2  0 12m23 ?      00:00:00 [bioset]
+root         245       2  0 12m23 ?      00:00:00 [bioset]
+root         246       2  0 12m23 ?      00:00:00 [bioset]
+root         252       2  0 12m23 ?      00:00:00 [ipv6_addrconf]
+root         265       2  0 12m23 ?      00:00:00 [deferwq]
+root         266       2  0 12m23 ?      00:00:00 [kworker/u896:1]
+root         267       2  0 12m23 ?      00:00:00 [charger_manager]
+root         314       2  0 12m23 ?      00:00:00 [scsi_eh_0]
+root         315       2  0 12m23 ?      00:00:00 [scsi_tmf_0]
+root         317       2  0 12m23 ?      00:00:00 [scsi_eh_1]
+root         318       2  0 12m23 ?      00:00:00 [scsi_tmf_1]
+root         319       2  0 12m23 ?      00:00:00 [scsi_eh_2]
+root         320       2  0 12m23 ?      00:00:00 [scsi_tmf_2]
+root         321       2  0 12m23 ?      00:00:00 [scsi_eh_3]
+root         322       2  0 12m23 ?      00:00:00 [scsi_tmf_3]
+root         323       2  0 12m23 ?      00:00:00 [scsi_eh_4]
+root         324       2  0 12m23 ?      00:00:00 [scsi_tmf_4]
+root         325       2  0 12m23 ?      00:00:00 [scsi_eh_5]
+root         326       2  0 12m23 ?      00:00:00 [scsi_tmf_5]
+root         327       2  0 12m23 ?      00:00:00 [scsi_eh_6]
+root         328       2  0 12m23 ?      00:00:00 [scsi_tmf_6]
+root         334       2  0 12m23 ?      00:00:00 [scsi_eh_7]
+root         335       2  0 12m23 ?      00:00:00 [scsi_tmf_7]
+root         336       2  0 12m23 ?      00:00:00 [scsi_eh_8]
+root         337       2  0 12m23 ?      00:00:00 [scsi_tmf_8]
+root         338       2  0 12m23 ?      00:00:00 [scsi_eh_9]
+root         339       2  0 12m23 ?      00:00:00 [scsi_tmf_9]
+root         340       2  0 12m23 ?      00:00:00 [scsi_eh_10]
+root         341       2  0 12m23 ?      00:00:00 [scsi_tmf_10]
+root         342       2  0 12m23 ?      00:00:00 [scsi_eh_11]
+root         343       2  0 12m23 ?      00:00:00 [scsi_tmf_11]
+root         344       2  0 12m23 ?      00:00:00 [scsi_eh_12]
+root         345       2  0 12m23 ?      00:00:00 [scsi_tmf_12]
+root         346       2  0 12m23 ?      00:00:00 [scsi_eh_13]
+root         347       2  0 12m23 ?      00:00:00 [scsi_tmf_13]
+root         348       2  0 12m23 ?      00:00:00 [scsi_eh_14]
+root         349       2  0 12m23 ?      00:00:00 [scsi_tmf_14]
+root         657       2  0 12m23 ?      00:00:00 [bioset]
+root         941       2  0 12m23 ?      00:00:01 [jbd2/sda2-8]
+root         942       2  0 12m23 ?      00:00:00 [ext4-rsv-conver]
+root         973       2  0 12m23 ?      00:00:00 [kworker/29:2]
+root         978       2  0 12m23 ?      00:00:00 [kworker/31:2]
+root         991       1  0 12m23 ?      00:00:01 /lib/systemd/systemd-journald
+root         996       2  0 12m23 ?      00:00:00 [kauditd]
+root        1002       2  0 12m23 ?      00:00:00 [kworker/20:1H]
+root        1023       2  0 12m23 ?      00:00:00 [rpciod]
+root        1027       1  0 12m23 ?      00:00:00 /sbin/lvmetad -f
+root        1032       1  0 12m23 ?      00:00:00 /lib/systemd/systemd-udevd
+root        1236       2  0 12m23 ?      00:00:00 [kworker/25:2]
+root        1248       2  0 12m23 ?      00:00:00 [ib_addr]
+root        1251       2  0 12m23 ?      00:00:00 [irq/67-mei_me]
+root        1318       2  0 12m23 ?      00:00:00 [kvm-irqfd-clean]
+root        1378       2  0 12m23 ?      00:00:00 [irq/86-hfi1_0 k]
+root        1379       2  0 12m23 ?      00:00:00 [irq/87-hfi1_0 k]
+root        1380       2  0 12m23 ?      00:00:00 [edac-poller]
+root        1381       2  0 12m23 ?      00:00:00 [hfi0_0]
+root        1382       2  0 12m23 ?      00:00:00 [hfi1_cq0]
+root        1383       2  0 12m23 ?      00:00:00 [ib_mad1]
+root        1384       2  0 12m23 ?      00:00:00 [kworker/2:1H]
+root        1429       2  0 12m23 ?      00:00:00 [kdmflush]
+root        1431       2  0 12m23 ?      00:00:00 [bioset]
+root        1717       2  0 12m23 ?      00:00:00 [kworker/12:1H]
+root        1718       2  0 12m23 ?      00:00:00 [kworker/3:1H]
+syslog      1738       1  0 12m23 ?      00:00:00 /usr/sbin/rsyslogd -n
+root        1749       1  0 12m23 ?      00:00:00 /lib/systemd/systemd-logind
+root        1754       1  0 12m23 ?      00:00:00 /usr/sbin/acpid
+message+    1758       1  0 12m23 ?      00:00:03 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root        1769       1  0 12m23 ?      00:00:00 /usr/bin/python2.7 /usr/bin/ceph-crash
+root        1772       1  0 12m23 ?      00:00:00 /usr/sbin/ModemManager
+avahi       1784       1  0 12m23 ?      00:00:00 avahi-daemon: running [katherine-PowerEdge-R540.local]
+root        1793       1  0 12m23 ?      00:00:04 /usr/lib/accountsservice/accounts-daemon
+root        1795       2  0 12m23 ?      00:00:00 [kworker/21:2]
+root        1809       1  0 12m23 ?      00:00:04 /usr/sbin/NetworkManager --no-daemon
+root        1824       1  0 12m23 ?      00:00:00 /sbin/cgmanager -m name=systemd
+root        1839       1  0 12m23 ?      00:00:00 /usr/sbin/cron -f
+avahi       1879    1784  0 12m23 ?      00:00:00 avahi-daemon: chroot helper
+root        1893       1  0 12m23 ?      00:00:06 /usr/bin/vmware-usbarbitrator
+root        1907       1  0 12m23 ?      00:00:04 /usr/lib/policykit-1/polkitd --no-debug
+root        1936       2  0 12m23 ?      00:00:00 [iprt-VBoxWQueue]
+root        1940       2  0 12m23 ?      00:00:00 [iprt-VBoxTscThr]
+root        2030       1  0 12m23 ?      00:03:35 /usr/bin/containerd
+mysql       2055       1  0 12m23 ?      01:50:31 /usr/sbin/mysqld
+root        2073       1  0 12m23 ?      00:00:00 /usr/sbin/sshd -D
+root        2091       2  0 12m23 ?      00:00:00 [kworker/0:1H]
+root        2126       2  0 12m23 ?      00:00:00 [kworker/1:1H]
+root        2160       2  0 12m23 ?      00:00:00 [kworker/17:1H]
+root        2164       2  0 12m23 ?      00:00:00 [kworker/13:1H]
+root        2165    1809  0 12m23 ?      00:00:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-eno1.pid -lf /var/lib/NetworkManager/dhclient-945b4507-3e86-3f79-afcd-075ca0c79735-eno1.lease -cf /var/lib/NetworkManager/dhclient-eno1.conf eno1
+nobody      2178    1809  0 12m23 ?      00:00:00 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/var/run/NetworkManager/dnsmasq.pid --listen-address=127.0.1.1 --cache-size=0 --conf-file=/dev/null --proxy-dnssec --enable-dbus=org.freedesktop.NetworkManager.dnsmasq --conf-dir=/etc/NetworkManager/dnsmasq.d
+root        2506       2  0 12m23 ?      00:00:00 [kworker/14:1H]
+root        2507    1809  0 12m23 ?      00:00:00 /sbin/dhclient -d -q -6 -N -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient6-eno1.pid -lf /var/lib/NetworkManager/dhclient6-945b4507-3e86-3f79-afcd-075ca0c79735-eno1.lease -cf /var/lib/NetworkManager/dhclient6-eno1.conf eno1
+root        2538       1  0 12m23 ?      00:03:13 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+whoopsie    2577       1  0 12m23 ?      00:00:02 /usr/bin/whoopsie -f
+root        2624       2  0 12m23 ?      00:00:00 [kworker/21:1H]
+root        2713       1  0 12m23 ?      00:00:00 /usr/sbin/libvirtd
+mosquit+    2784       1  0 12m23 ?      00:00:50 /usr/sbin/mosquitto -c /etc/mosquitto/mosquitto.conf
+root        2848       1  0 12m23 ?      00:04:40 /usr/sbin/irqbalance --pid=/var/run/irqbalance.pid
+root        2886       1  0 12m23 ?      00:00:00 /usr/sbin/lightdm
+root        3039       2  0 12m23 ?      00:00:00 [kworker/15:1H]
+root        3053    2886  3 12m23 tty7   06:08:16 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root        3055       1  0 12m23 tty1   00:00:00 /sbin/agetty --noclear tty1 linux
+root        3081       1  0 12m23 ?      00:00:00 /usr/sbin/xinetd -pidfile /run/xinetd.pid -stayalive -inetd_compat -inetd_ipv6
+root        3150       1  0 12m23 ?      00:00:00 /usr/lib/vmware/bin/vmware-vmblock-fuse -o subtype=vmware-vmblock,default_permissions,allow_other /var/run/vmblock-fuse
+root        3196       1  0 12m23 ?      00:00:00 /usr/bin/vmnet-bridge -s 6 -d /var/run/vmnet-bridge-0.pid -n 0
+root        3205       2  0 12m23 ?      00:00:00 [kworker/4:1H]
+ntp         3207       1  0 12m23 ?      00:00:17 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 122:130
+root        3233       2  0 12m23 ?      00:00:00 [kworker/7:1H]
+root        3313       1  0 12m23 ?      00:00:00 /usr/bin/vmnet-netifup -s 6 -d /var/run/vmnet-netifup-vmnet1.pid /dev/vmnet1 vmnet1
+root        3352       2  0 12m23 ?      00:00:00 [kworker/30:1H]
+root        3368       1  0 12m23 ?      00:00:00 /usr/bin/vmnet-dhcpd -s 6 -cf /etc/vmware/vmnet1/dhcpd/dhcpd.conf -lf /etc/vmware/vmnet1/dhcpd/dhcpd.leases -pf /var/run/vmnet-dhcpd-vmnet1.pid vmnet1
+root        3386       2  0 12m23 ?      00:00:00 [kworker/5:1H]
+root        3392       2  0 12m23 ?      00:00:00 [kworker/9:1H]
+root        3403       1  0 12m23 ?      00:00:00 /usr/bin/vmnet-natd -s 6 -m /etc/vmware/vmnet8/nat.mac -c /etc/vmware/vmnet8/nat/nat.conf
+root        3411       1  0 12m23 ?      00:00:18 /usr/sbin/nmbd -D
+root        3474       1  0 12m23 ?      00:00:00 /usr/bin/vmnet-netifup -s 6 -d /var/run/vmnet-netifup-vmnet8.pid /dev/vmnet8 vmnet8
+root        3553       1  0 12m23 ?      00:00:00 /usr/bin/vmnet-dhcpd -s 6 -cf /etc/vmware/vmnet8/dhcpd/dhcpd.conf -lf /etc/vmware/vmnet8/dhcpd/dhcpd.leases -pf /var/run/vmnet-dhcpd-vmnet8.pid vmnet8
+root        3699       1  0 12m23 ?      00:00:06 /usr/sbin/vmware-authdlauncher
+root        3705       1  0 12m23 ?      00:00:01 /usr/sbin/smbd -D
+root        3706    3705  0 12m23 ?      00:00:03 /usr/sbin/smbd -D
+root        3712    3705  0 12m23 ?      00:00:01 /usr/sbin/smbd -D
+root        3863       2  0 12m23 ?      00:00:00 [kworker/16:1H]
+root        3864       2  0 12m23 ?      00:00:00 [kworker/6:1H]
+root        3867       1  0 12m23 ?      00:34:02 /usr/lib/vmware/bin/vmware-hostd -a /etc/vmware/hostd/config.xml
+root        3913    2886  0 12m23 ?      00:00:00 lightdm --session-child 12 19
+rtkit       3999       1  0 12m23 ?      00:00:02 /usr/lib/rtkit/rtkit-daemon
+root        4096       1  0 12m23 ?      00:00:00 /usr/lib/upower/upowerd
+root        4111       2  0 12m23 ?      00:00:00 [kworker/11:1H]
+root        4122       2  0 12m23 ?      00:00:00 [kworker/8:1H]
+colord      4133       1  0 12m23 ?      00:00:00 /usr/lib/colord/colord
+libvirt+    4487       1  0 12m23 ?      00:00:00 /usr/sbin/dnsmasq --conf-file=/var/lib/libvirt/dnsmasq/default.conf --leasefile-ro --dhcp-script=/usr/lib/libvirt/libvirt_leaseshelper
+root        4488    4487  0 12m23 ?      00:00:00 /usr/sbin/dnsmasq --conf-file=/var/lib/libvirt/dnsmasq/default.conf --leasefile-ro --dhcp-script=/usr/lib/libvirt/libvirt_leaseshelper
+root        4581       2  0 12m23 ?      00:00:00 [nfsiod]
+root        4590       2  0 12m23 ?      00:00:00 [kworker/29:1H]
+root        4613       2  0 12m23 ?      00:00:00 [kworker/10:1H]
+do          4940       1  0 12m23 ?      00:00:00 /lib/systemd/systemd --user
+do          5012    4940  0 12m23 ?      00:00:00 (sd-pam)
+do          5066       1  0 12m23 ?      00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+do          5070    3913  0 12m23 ?      00:00:00 /sbin/upstart --user
+do          5180    5070  0 12m23 ?      00:00:00 upstart-udev-bridge --daemon --user
+do          5181    5070  0 12m23 ?      00:00:04 dbus-daemon --fork --session --address=unix:abstract=/tmp/dbus-CA2eD8VmAP
+do          5193    5070  0 12m23 ?      00:00:00 /usr/lib/x86_64-linux-gnu/hud/window-stack-bridge
+do          5218    5070  0 12m23 ?      00:00:00 upstart-dbus-bridge --daemon --system --user --bus-name system
+do          5219    5070  0 12m23 ?      00:00:01 upstart-dbus-bridge --daemon --session --user --bus-name session
+do          5227    5070  0 12m23 ?      00:00:00 /usr/bin/ibus-daemon --daemonize --xim
+do          5245    5070  0 12m23 ?      00:00:00 upstart-file-bridge --daemon --user
+do          5249    5070  0 12m23 ?      00:00:00 /usr/lib/gvfs/gvfsd
+do          5254    5070  0 12m23 ?      00:00:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1002/gvfs -f -o big_writes
+do          5263    5227  0 12m23 ?      00:00:00 /usr/lib/ibus/ibus-dconf
+do          5264    5227  0 12m23 ?      00:00:00 /usr/lib/ibus/ibus-ui-gtk3
+do          5268    5070  0 12m23 ?      00:00:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+do          5278    5070  0 12m23 ?      00:00:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+do          5286    5278  0 12m23 ?      00:00:00 /usr/bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+do          5288    5070  0 12m23 ?      00:00:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+do          5292    5070  0 12m23 ?      00:00:00 /usr/lib/x86_64-linux-gnu/bamf/bamfdaemon
+do          5298    5227  0 12m23 ?      00:00:00 /usr/lib/ibus/ibus-engine-simple
+do          5313    5070  0 12m23 ?      00:00:06 gpg-agent --homedir /home/do/.gnupg --use-standard-socket --daemon
+do          5374    5070  0 12m23 ?      00:00:00 /usr/lib/x86_64-linux-gnu/hud/hud-service
+do          5376    5070  0 12m23 ?      00:00:06 /usr/lib/unity-settings-daemon/unity-settings-daemon
+do          5388    5070 18 12m23 ?      1-12:19:03 compiz
+do          5389    5070  0 12m23 ?      00:00:00 /usr/lib/gnome-session/gnome-session-binary --session=ubuntu
+do          5393    5070  0 12m23 ?      00:00:13 /usr/lib/x86_64-linux-gnu/unity/unity-panel-service
+do          5449    5070  0 12m23 ?      00:00:00 /usr/lib/dconf/dconf-service
+do          5454    5070  0 12m23 ?      00:00:00 /usr/lib/x86_64-linux-gnu/indicator-messages/indicator-messages-service
+do          5455    5070  0 12m23 ?      00:00:00 /usr/lib/x86_64-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
+do          5456    5070  0 12m23 ?      00:00:00 /usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service
+do          5457    5070  0 12m23 ?      00:00:06 /usr/lib/x86_64-linux-gnu/indicator-datetime/indicator-datetime-service
+do          5460    5070  0 12m23 ?      00:00:00 /usr/lib/x86_64-linux-gnu/indicator-keyboard/indicator-keyboard-service --use-gtk
+do          5465    5070  0 12m23 ?      00:00:00 /usr/lib/x86_64-linux-gnu/indicator-sound/indicator-sound-service
+do          5468    5070  0 12m23 ?      00:00:00 /usr/lib/x86_64-linux-gnu/indicator-printers/indicator-printers-service
+do          5469    5070  0 12m23 ?      00:00:00 /usr/lib/x86_64-linux-gnu/indicator-session/indicator-session-service
+do          5496    5070  0 12m23 ?      00:00:00 /usr/lib/x86_64-linux-gnu/indicator-application/indicator-application-service
+do          5513    5070  0 12m23 ?      00:00:00 /usr/bin/pulseaudio --start --log-target=syslog
+do          5528    5070  0 12m23 ?      00:00:00 /usr/lib/evolution/evolution-source-registry
+do          5558    5389  0 12m23 ?      00:00:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+do          5562    5389  0 12m23 ?      00:00:01 nm-applet
+do          5563    5389  0 12m23 ?      00:00:00 nautilus -n
+do          5570    5389  0 12m23 ?      00:00:22 /usr/bin/gnome-software --gapplication-service
+do          5573    5389  0 12m23 ?      00:00:00 /usr/lib/unity-settings-daemon/unity-fallback-mount-helper
+root        5580       2  0 12m23 ?      00:00:00 [kworker/23:1H]
+do          5609    5070  0 12m23 ?      00:00:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+root        5612       1  0 12m23 ?      00:00:00 /usr/lib/udisks2/udisksd --no-debug
+do          5623    5070  0 12m23 ?      00:00:00 /usr/lib/evolution/evolution-calendar-factory
+do          5627    5070  0 12m23 ?      00:00:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+do          5632    5070  0 12m23 ?      00:00:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+do          5640    5070  0 12m23 ?      00:00:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+root        5643       1  0 12m23 ?      00:00:01 /usr/lib/x86_64-linux-gnu/fwupd/fwupd
+do          5648    5070  0 12m23 ?      00:00:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+do          5661    5070  0 12m23 ?      00:00:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.4 /org/gtk/gvfs/exec_spaw/0
+do          5677    5623  0 12m23 ?      00:00:01 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory contacts --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx5623x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/5623/2
+do          5688    5070  0 12m23 ?      00:00:00 /usr/lib/evolution/evolution-addressbook-factory
+do          5690    5623  0 12m23 ?      00:00:01 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx5623x3 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/5623/3
+do          5711    5688  0 12m23 ?      00:00:01 /usr/lib/evolution/evolution-addressbook-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.AddressBookx5688x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/AddressBook/5688/2
+do          5791    5070  0 12m23 ?      00:00:00 /usr/lib/x86_64-linux-gnu/unity-scope-home/unity-scope-home
+do          5793    5070  0 12m23 ?      00:00:00 /bin/sh -c /usr/lib/x86_64-linux-gnu/zeitgeist/zeitgeist-maybe-vacuum; /usr/bin/zeitgeist-daemon
+do          5797    5793  0 12m23 ?      00:00:00 /usr/bin/zeitgeist-daemon
+do          5807    5070  0 12m23 ?      00:00:00 /usr/lib/x86_64-linux-gnu/zeitgeist-fts
+do          5809    5070  0 12m23 ?      00:00:03 zeitgeist-datahub
+do          5885    5070  0 12m23 ?      00:00:05 /usr/bin/unity-scope-loader applications/applications.scope applications/scopes.scope commands.scope
+do          5887    5070  0 12m23 ?      00:00:00 /usr/lib/x86_64-linux-gnu/unity-lens-files/unity-files-daemon
+root        5888       2  0 12m23 ?      00:00:00 [kworker/22:1H]
+root        5939       2  0 12m23 ?      00:00:00 [kworker/24:1H]
+do          6113    5389  0 12m23 ?      00:00:04 update-notifier
+do          6196    5070  0 12m23 ?      00:00:01 /usr/lib/x86_64-linux-gnu/notify-osd
+uuidd       6552       1  0 12m23 ?      00:00:00 /usr/sbin/uuidd --socket-activation
+root        6570       2  0 12m23 ?      00:00:00 [kworker/19:1H]
+do          6767    5389  0 12m23 ?      00:00:01 /usr/lib/x86_64-linux-gnu/deja-dup/deja-dup-monitor
+root        7543       2  0 12m23 ?      00:00:00 [kworker/26:1H]
+root        7719       2  0 12m23 ?      00:00:00 [kworker/31:1H]
+root        7762       2  0 12m23 ?      00:00:00 [kworker/25:1H]
+root        8140       2  0 12m23 ?      00:00:00 [kworker/18:1H]
+root        8343       2  0 12m23 ?      00:00:00 [kworker/28:1H]
+root        8622       2  0 12m23 ?      00:00:00 [kworker/27:1H]
+do         20430    5070  0 12m24 ?      00:00:00 /usr/lib/gvfs/gvfsd-metadata
+do         70972    5070  0 12m24 ?      00:00:09 /usr/lib/x86_64-linux-gnu/unity/unity-panel-service --lockscreen-mode
+root       71054       2  0 12m24 ?      00:00:00 [kworker/6:2]
+root       74002       2  0 12m24 ?      00:00:00 [kworker/19:0]
+root      124470       2  0 12m25 ?      00:00:00 [kworker/30:2]
+root      128557       2  0 12m25 ?      00:00:00 [kworker/27:0]
+root      133059       2  0 12m26 ?      00:00:00 [kworker/20:0]
+root      141680       2  0 12m26 ?      00:00:00 [kworker/11:1]
+root      143499       2  0 12m26 ?      00:00:00 [kworker/6:1]
+root      169605       2  0 12m26 ?      00:00:00 [kworker/18:0]
+root      230465       2  0 12m26 ?      00:00:00 [kworker/30:0]
+root      254101       2  0 12m26 ?      00:00:00 [kworker/9:1]
+root      255224       2  0 12m27 ?      00:00:00 [kworker/22:2]
+root      257505       2  0 12m27 ?      00:00:00 [kworker/21:0]
+root      257951       2  0 12m27 ?      00:00:00 [kworker/24:2]
+root      304662       2  0 12m27 ?      00:00:00 [kworker/16:2]
+root      354779       2  0 12m27 ?      00:00:00 [kworker/22:3]
+root      443769       2  0 12m27 ?      00:00:00 [kworker/18:1]
+root      469608       2  0 12m27 ?      00:00:00 [kworker/23:3]
+root      473099       1  0 12m27 ?      00:00:09 ./MqttCloudClient 10.1.119.73 zjlabmodbus
+root      484867       2  0 12m27 ?      00:00:00 [kworker/24:3]
+root      485221       2  0 12m27 ?      00:00:00 [kworker/2:2]
+root      488401       2  0 12m28 ?      00:00:00 [kworker/9:2]
+root      488845       2  0 12m28 ?      00:00:00 [kworker/11:2]
+root      496868       2  0 12m29 ?      00:00:00 [kworker/20:1]
+root      496886       2  0 12m29 ?      00:00:02 [kworker/3:2]
+root      496957       2  0 12m29 ?      00:00:00 [kworker/15:1]
+root      497635       2  0 12m29 ?      00:00:00 [kworker/14:2]
+root      510562       2  0 12m29 ?      00:00:00 [kworker/2:0]
+root      524422       2  0 12m29 ?      00:00:00 [kworker/28:0]
+root      533788       2  0 12m29 ?      00:00:00 [kworker/17:0]
+root      574012       2  0 12m30 ?      00:00:00 [kworker/14:0]
+root      575424       2  0 12m30 ?      00:00:00 [kworker/26:2]
+root      575441       2  0 12m30 ?      00:00:03 [kworker/3:0]
+root      576102       2  0 12m30 ?      00:00:00 [kworker/0:1]
+root      588404       2  0 12m30 ?      00:00:00 [kworker/13:1]
+root      594671       2  0 12m30 ?      00:00:00 [kworker/8:2]
+root      601726    2073  0 12m30 ?      00:00:00 sshd: do [priv]
+do        601758  601726  0 12m30 ?      00:00:00 sshd: do@pts/21
+do        601759  601758  0 12m30 pts/21 00:00:00 -bash
+root      601802  601759  0 12m30 pts/21 00:00:00 sudo -i
+root      601803  601802  0 12m30 pts/21 00:00:00 -bash
+root      602151  601803  0 12m30 pts/21 00:00:00 mysql -uroot -px xxxx
+root      620984       2  0 12m30 ?      00:00:00 [kworker/1:2]
+root      656840       2  0 12m30 ?      00:00:00 [kworker/12:0]
+root      690195       2  0 12m30 ?      00:00:00 [kworker/4:1]
+root      690643       2  0 12m30 ?      00:00:00 [kworker/15:0]
+root      725292       2  0 12m30 ?      00:00:00 [kworker/25:1]
+root      811364       2  0 12m30 ?      00:00:00 [kworker/16:0]
+root      883739       2  0 12m30 ?      00:00:00 [kworker/u898:2]
+root      885304       2  0 12m30 ?      00:00:00 [kworker/7:1]
+root      885428       2  0 12m30 ?      00:00:00 [kworker/5:1]
+root      885937       2  0 12m30 ?      00:00:00 [kworker/13:3]
+root      885948       2  0 12m30 ?      00:00:00 [kworker/12:2]
+root      885997       2  0 12m30 ?      00:00:00 [kworker/8:1]
+root      888524       2  0 06:29 ?        00:00:00 [kworker/0:0]
+root      888982       1  0 07:35 ?        00:00:00 /usr/sbin/cupsd -l
+root      888985       1  0 07:35 ?        00:00:00 /usr/sbin/cups-browsed
+root      889030       2  0 07:35 ?        00:00:00 [kworker/5:0]
+root      889072       2  0 07:35 ?        00:00:00 [kworker/7:2]
+root      889615       2  0 09:17 ?        00:00:00 [kworker/4:2]
+root      889675       2  0 09:26 ?        00:00:00 [kworker/1:0]
+root      889730    2073  0 09:37 ?        00:00:00 sshd: do [priv]
+do        889782  889730  0 09:37 ?        00:00:00 sshd: do@pts/2
+do        889783  889782  0 09:37 pts/2    00:00:00 -bash
+root      889784       2  0 09:37 ?        00:00:00 [kworker/u898:1]
+root      889868       2  0 09:46 ?        00:00:00 [kworker/10:0]
+root      890284    3705  0 11:03 ?        00:00:00 /usr/sbin/smbd -D
+root      890428       2  0 11:31 ?        00:00:00 [kworker/17:2]
+root      890441       2  0 11:31 ?        00:00:00 [kworker/10:2]
+root      891206       2  0 13:57 ?        00:00:00 [kworker/u897:2]
+root      891284       2  0 14:12 ?        00:00:00 [kworker/u897:0]
+do        891319  889783  0 14:21 pts/2    00:00:00 ps -ef
+
+################################################################
+#######                                                       ######
+#######                                                       ######
+            ###### #        #########         #         #####  
+          ##       #        #                # #        #    #
+         ##        #        #               #   #       #     #
+         ##        #        #########      # # # #      #    #
+         ##        #        #             #       #     # # #
+          ##       #        #            #         #    # #     
+           ##      #        #           #           #   #   # 
+            ###### ######## ########## #             #  #     #
+#######                                                       ######
+#######                                                       ######
+################################################################

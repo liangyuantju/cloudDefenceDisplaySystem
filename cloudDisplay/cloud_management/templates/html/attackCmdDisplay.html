@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <body style="background-color: black;">
+        <div id="testdiv"></div>
+        <!-- <div id="scroll_box" style="visibility: hidden;">
+            <marquee scrolldelay="0" scrollamount="100" direction=up behavior="scroll" id="scroll_info">
+                {% for i in range(100) %}
+                    <p style="color: blanchedalmond;">
+                        "cloudstack_kvm_id1 checking....."
+                    </p>
+                    <p style="color: blanchedalmond;">
+                        "cloudstack_xen_id1 checking....."
+                    </p>
+                    <p style="color: blanchedalmond;">
+                        "openstack_kvm_id1 checking....."
+                    </p>
+                    <p style="color: blanchedalmond;">
+                        "openstack_xen_id1 checking....."
+                    </p>
+                {% endfor %}  
+            </marquee> 
+        </div>
+
+        <div id="scroll_box_2" style="visibility: hidden;">
+            <marquee scrolldelay="0" scrollamount="50" direction=up behavior="scroll" id="scroll_info">
+                {% for line in cmd %}
+                <p style="color: blanchedalmond;">
+                    {{ line | safe}}
+                </p>
+                {% endfor %}  
+            </marquee> 
+        </div> -->
+    </body>
+    <script src="{{ url_for('static',filename='js/jquery.min.js') }}"></script>
+    <script>
+        // setInterval(function(){
+        //     $.ajax({
+        //         url:'getAttackStatus',
+        //         type:"GET",
+        //         dataType:"json",
+        //         success: function (data) {
+        //             if (data[0]['attack_status']) {
+        //                 console.log("111");
+        //                 document.getElementById("scroll_box").style.visibility="hidden";
+        //                 document.getElementById("scroll_box_2").style.visibility="visible";
+        //             } else {
+        //                 console.log("222");
+        //                 document.getElementById("scroll_box").style.visibility="visible";
+        //                 document.getElementById("scroll_box_2").style.visibility="hidden";
+        //             }
+        //         }
+        //     })  
+        // }, 1000)
+
+        setInterval(function(){
+            $.ajax({
+                url:'getAttackStatus',
+                type:"GET",
+                dataType:"json",
+                success: function (data) {
+                    var insert_html_2 = '<marquee scrolldelay="0" scrollamount="10" direction=up behavior="scroll"> <p style="color: blanchedalmond;">cloudstack checking </p></marquee>';
+                    if (data[0]['attack_status']) {
+                        console.log("111");
+                        document.getElementById("testdiv").innerHTML = insert_html_2;
+                    } else {
+                        console.log("222");
+                        document.getElementById("testdiv").innerHTML = insert_html_2;
+                    }
+                }
+            })  
+        }, 1000)
+    </script>
+</html>
