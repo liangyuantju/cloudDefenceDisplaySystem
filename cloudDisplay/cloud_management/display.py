@@ -24,14 +24,26 @@ def index():
 def startAttack():
     return render_template('html/attackStart.html')
 
+@bp.route('/displayCmdLines', methods=('POST', 'GET'))
+def displayCmdLines():
+    return render_template('html/attackCmdDisplay.html')
+
 @bp.route('/getCmdLines', methods=('POST', 'GET'))
 def getCmdLines():
-    with open('./displaycmd.txt', 'rb') as fr:
-        lines = fr.readlines()
-    lines = [line+'</br>' for line in lines]
-    lines = [line.replace(' ', '&nbsp;&nbsp;') for line in lines]
+    global g_attack_status
+    if g_attack_status:
+        with open('./CheckingStatusCmdLines.txt', 'rb') as fr:
+            lines = fr.readlines()
+    else:
+        with open('./displaycmd.txt', 'rb') as fr:
+            lines = fr.readlines()
+    # lines = [line+'</br>' for line in lines]
+    # lines = [line.replace(' ', '&nbsp;&nbsp;') for line in lines]
+    ret_json = json.dumps([{
+        'data':lines,
+    }])
     
-    return render_template('html/attackCmdDisplay.html', cmd=lines)
+    return ret_json
 
 @bp.route('/attackStart', methods=('POST', 'GET'))
 def attackStart():
